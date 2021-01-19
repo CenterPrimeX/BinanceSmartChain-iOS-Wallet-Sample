@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B893F28525B6C96400D055C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28425B6C96400D055C2 /* AppDelegate.swift */; };
+		B893F28725B6C96400D055C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28625B6C96400D055C2 /* SceneDelegate.swift */; };
+		B893F28925B6C96400D055C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28825B6C96400D055C2 /* ViewController.swift */; };
+		B893F28C25B6C96400D055C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B893F28A25B6C96400D055C2 /* Main.storyboard */; };
+		B893F28E25B6C96500D055C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B893F28D25B6C96500D055C2 /* Assets.xcassets */; };
+		B893F29125B6C96500D055C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B893F28F25B6C96500D055C2 /* LaunchScreen.storyboard */; };
+		B893F29C25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F29B25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift */; };
+		B893F2A725B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F2A625B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B893F29825B6C96500D055C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B893F27925B6C96400D055C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B893F28025B6C96400D055C2;
+			remoteInfo = BinanceSmartChainIosSample;
+		};
+		B893F2A325B6C96500D055C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B893F27925B6C96400D055C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B893F28025B6C96400D055C2;
+			remoteInfo = BinanceSmartChainIosSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B893F28125B6C96400D055C2 /* BinanceSmartChainIosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinanceSmartChainIosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B893F28425B6C96400D055C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B893F28625B6C96400D055C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B893F28825B6C96400D055C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B893F28B25B6C96400D055C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B893F28D25B6C96500D055C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B893F29025B6C96500D055C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B893F29225B6C96500D055C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B893F29725B6C96500D055C2 /* BinanceSmartChainIosSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceSmartChainIosSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B893F29B25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSmartChainIosSampleTests.swift; sourceTree = "<group>"; };
+		B893F29D25B6C96500D055C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B893F2A225B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceSmartChainIosSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B893F2A625B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSmartChainIosSampleUITests.swift; sourceTree = "<group>"; };
+		B893F2A825B6C96500D055C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B893F27E25B6C96400D055C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F29425B6C96500D055C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F29F25B6C96500D055C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B893F27825B6C96400D055C2 = {
+			isa = PBXGroup;
+			children = (
+				B893F28325B6C96400D055C2 /* BinanceSmartChainIosSample */,
+				B893F29A25B6C96500D055C2 /* BinanceSmartChainIosSampleTests */,
+				B893F2A525B6C96500D055C2 /* BinanceSmartChainIosSampleUITests */,
+				B893F28225B6C96400D055C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B893F28225B6C96400D055C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B893F28125B6C96400D055C2 /* BinanceSmartChainIosSample.app */,
+				B893F29725B6C96500D055C2 /* BinanceSmartChainIosSampleTests.xctest */,
+				B893F2A225B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B893F28325B6C96400D055C2 /* BinanceSmartChainIosSample */ = {
+			isa = PBXGroup;
+			children = (
+				B893F28425B6C96400D055C2 /* AppDelegate.swift */,
+				B893F28625B6C96400D055C2 /* SceneDelegate.swift */,
+				B893F28825B6C96400D055C2 /* ViewController.swift */,
+				B893F28A25B6C96400D055C2 /* Main.storyboard */,
+				B893F28D25B6C96500D055C2 /* Assets.xcassets */,
+				B893F28F25B6C96500D055C2 /* LaunchScreen.storyboard */,
+				B893F29225B6C96500D055C2 /* Info.plist */,
+			);
+			path = BinanceSmartChainIosSample;
+			sourceTree = "<group>";
+		};
+		B893F29A25B6C96500D055C2 /* BinanceSmartChainIosSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B893F29B25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift */,
+				B893F29D25B6C96500D055C2 /* Info.plist */,
+			);
+			path = BinanceSmartChainIosSampleTests;
+			sourceTree = "<group>";
+		};
+		B893F2A525B6C96500D055C2 /* BinanceSmartChainIosSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B893F2A625B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift */,
+				B893F2A825B6C96500D055C2 /* Info.plist */,
+			);
+			path = BinanceSmartChainIosSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B893F28025B6C96400D055C2 /* BinanceSmartChainIosSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B893F2AB25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSample" */;
+			buildPhases = (
+				B893F27D25B6C96400D055C2 /* Sources */,
+				B893F27E25B6C96400D055C2 /* Frameworks */,
+				B893F27F25B6C96400D055C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinanceSmartChainIosSample;
+			productName = BinanceSmartChainIosSample;
+			productReference = B893F28125B6C96400D055C2 /* BinanceSmartChainIosSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B893F29625B6C96500D055C2 /* BinanceSmartChainIosSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B893F2AE25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleTests" */;
+			buildPhases = (
+				B893F29325B6C96500D055C2 /* Sources */,
+				B893F29425B6C96500D055C2 /* Frameworks */,
+				B893F29525B6C96500D055C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B893F29925B6C96500D055C2 /* PBXTargetDependency */,
+			);
+			name = BinanceSmartChainIosSampleTests;
+			productName = BinanceSmartChainIosSampleTests;
+			productReference = B893F29725B6C96500D055C2 /* BinanceSmartChainIosSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B893F2A125B6C96500D055C2 /* BinanceSmartChainIosSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B893F2B125B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleUITests" */;
+			buildPhases = (
+				B893F29E25B6C96500D055C2 /* Sources */,
+				B893F29F25B6C96500D055C2 /* Frameworks */,
+				B893F2A025B6C96500D055C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B893F2A425B6C96500D055C2 /* PBXTargetDependency */,
+			);
+			name = BinanceSmartChainIosSampleUITests;
+			productName = BinanceSmartChainIosSampleUITests;
+			productReference = B893F2A225B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B893F27925B6C96400D055C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B893F28025B6C96400D055C2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					B893F29625B6C96500D055C2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B893F28025B6C96400D055C2;
+					};
+					B893F2A125B6C96500D055C2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = B893F28025B6C96400D055C2;
+					};
+				};
+			};
+			buildConfigurationList = B893F27C25B6C96400D055C2 /* Build configuration list for PBXProject "BinanceSmartChainIosSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B893F27825B6C96400D055C2;
+			productRefGroup = B893F28225B6C96400D055C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B893F28025B6C96400D055C2 /* BinanceSmartChainIosSample */,
+				B893F29625B6C96500D055C2 /* BinanceSmartChainIosSampleTests */,
+				B893F2A125B6C96500D055C2 /* BinanceSmartChainIosSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B893F27F25B6C96400D055C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B893F29125B6C96500D055C2 /* LaunchScreen.storyboard in Resources */,
+				B893F28E25B6C96500D055C2 /* Assets.xcassets in Resources */,
+				B893F28C25B6C96400D055C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F29525B6C96500D055C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F2A025B6C96500D055C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B893F27D25B6C96400D055C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B893F28925B6C96400D055C2 /* ViewController.swift in Sources */,
+				B893F28525B6C96400D055C2 /* AppDelegate.swift in Sources */,
+				B893F28725B6C96400D055C2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F29325B6C96500D055C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B893F29C25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B893F29E25B6C96500D055C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B893F2A725B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B893F29925B6C96500D055C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B893F28025B6C96400D055C2 /* BinanceSmartChainIosSample */;
+			targetProxy = B893F29825B6C96500D055C2 /* PBXContainerItemProxy */;
+		};
+		B893F2A425B6C96500D055C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B893F28025B6C96400D055C2 /* BinanceSmartChainIosSample */;
+			targetProxy = B893F2A325B6C96500D055C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B893F28A25B6C96400D055C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B893F28B25B6C96400D055C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B893F28F25B6C96500D055C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B893F29025B6C96500D055C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B893F2A925B6C96500D055C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B893F2AA25B6C96500D055C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B893F2AC25B6C96500D055C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B893F2AD25B6C96500D055C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B893F2AF25B6C96500D055C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinanceSmartChainIosSample.app/BinanceSmartChainIosSample";
+			};
+			name = Debug;
+		};
+		B893F2B025B6C96500D055C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinanceSmartChainIosSample.app/BinanceSmartChainIosSample";
+			};
+			name = Release;
+		};
+		B893F2B225B6C96500D055C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinanceSmartChainIosSample;
+			};
+			name = Debug;
+		};
+		B893F2B325B6C96500D055C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BinanceSmartChainIosSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ergashev..BinanceSmartChainIosSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BinanceSmartChainIosSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B893F27C25B6C96400D055C2 /* Build configuration list for PBXProject "BinanceSmartChainIosSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B893F2A925B6C96500D055C2 /* Debug */,
+				B893F2AA25B6C96500D055C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B893F2AB25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B893F2AC25B6C96500D055C2 /* Debug */,
+				B893F2AD25B6C96500D055C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B893F2AE25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B893F2AF25B6C96500D055C2 /* Debug */,
+				B893F2B025B6C96500D055C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B893F2B125B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B893F2B225B6C96500D055C2 /* Debug */,
+				B893F2B325B6C96500D055C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B893F27925B6C96400D055C2 /* Project object */;
+}
