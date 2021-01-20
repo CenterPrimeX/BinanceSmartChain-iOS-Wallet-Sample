@@ -42,7 +42,7 @@ class CheckBEP20TokenBalanceVC: UIViewController {
                 if function successfully completes result can be caught in this block
              */
             let balance = try binance.getBEP20TokenBalance(tokenContractAddress: contract, walletAddress: walletAddress)
-            balanceTxtField.text = balance
+            balanceTxtField.text = "Token balance: " + balance!
         } catch {
             /**
                  if function fails error can be catched in this block

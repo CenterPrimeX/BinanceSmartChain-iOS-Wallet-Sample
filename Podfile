@@ -5,7 +5,7 @@ target 'BinanceSmartChainIosSample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'BinanceSmartChainSDK'
-
+  
   # Pods for BinanceSmartChainIosSample
 
   target 'BinanceSmartChainIosSampleTests' do
