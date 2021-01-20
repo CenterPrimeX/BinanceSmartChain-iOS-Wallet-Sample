@@ -39,7 +39,8 @@ class CreateWalletVC: UIViewController {
         /**
             @param infura - Initialize infura
          */
-        let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545")
+        let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
+       // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
         let password = pwdTextFieldoutlet.text
         let confirmPwd = confirmPwdTxtFieldoutlet.text
         
