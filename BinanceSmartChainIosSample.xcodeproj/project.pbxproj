@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21AB64EDF67E8D0722AED55C /* Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B12147612938B2C9ACB50AB /* Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework */; };
+		99DBB54F10C830513BAF1727 /* Pods_BinanceSmartChainIosSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB9EA60872FB99D67414263 /* Pods_BinanceSmartChainIosSampleTests.framework */; };
 		B893F28525B6C96400D055C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28425B6C96400D055C2 /* AppDelegate.swift */; };
 		B893F28725B6C96400D055C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28625B6C96400D055C2 /* SceneDelegate.swift */; };
 		B893F28925B6C96400D055C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F28825B6C96400D055C2 /* ViewController.swift */; };
@@ -15,6 +17,16 @@
 		B893F29125B6C96500D055C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B893F28F25B6C96500D055C2 /* LaunchScreen.storyboard */; };
 		B893F29C25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F29B25B6C96500D055C2 /* BinanceSmartChainIosSampleTests.swift */; };
 		B893F2A725B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893F2A625B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift */; };
+		B8ECDFDD25B7BDF500F6B69F /* CreateWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFDC25B7BDF500F6B69F /* CreateWalletVC.swift */; };
+		B8ECDFE225B7BE0500F6B69F /* CheckBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFE125B7BE0500F6B69F /* CheckBalanceVC.swift */; };
+		B8ECDFE725B7BE1600F6B69F /* SendBNBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFE625B7BE1600F6B69F /* SendBNBVC.swift */; };
+		B8ECDFEC25B7BE2700F6B69F /* ExportPrivateKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFEB25B7BE2700F6B69F /* ExportPrivateKeyVC.swift */; };
+		B8ECDFF125B7BE3500F6B69F /* ExportKeystoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFF025B7BE3500F6B69F /* ExportKeystoreVC.swift */; };
+		B8ECDFF625B7BE4700F6B69F /* CheckBEP20TokenBalanceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFF525B7BE4700F6B69F /* CheckBEP20TokenBalanceVC.swift */; };
+		B8ECDFFB25B7BE5500F6B69F /* ImportByPrivateKeyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFFA25B7BE5500F6B69F /* ImportByPrivateKeyVC.swift */; };
+		B8ECE00025B7BE6400F6B69F /* SendBEP20TokenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECDFFF25B7BE6400F6B69F /* SendBEP20TokenVC.swift */; };
+		B8ECE00525B7BE7500F6B69F /* ImportByKeystoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ECE00425B7BE7500F6B69F /* ImportByKeystoreVC.swift */; };
+		EACCF1C67E0DBAF5B3869D43 /* Pods_BinanceSmartChainIosSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED560D29DDEDBD66E71A8CBE /* Pods_BinanceSmartChainIosSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		014099B2E91AD3E693F916DA /* Pods-BinanceSmartChainIosSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSampleTests.release.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSampleTests/Pods-BinanceSmartChainIosSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		09C3D63D9DE78F0145925C14 /* Pods-BinanceSmartChainIosSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSample.debug.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSample/Pods-BinanceSmartChainIosSample.debug.xcconfig"; sourceTree = "<group>"; };
+		1B12147612938B2C9ACB50AB /* Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28085C0563C0153D0ADD39BD /* Pods-BinanceSmartChainIosSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSampleTests/Pods-BinanceSmartChainIosSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0AD189010E0B5F055A6E5A /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42F670E9DE35DF5A8CFDFFFC /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		67E5F927AAAC82B21315A4D6 /* Pods-BinanceSmartChainIosSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinanceSmartChainIosSample.release.xcconfig"; path = "Target Support Files/Pods-BinanceSmartChainIosSample/Pods-BinanceSmartChainIosSample.release.xcconfig"; sourceTree = "<group>"; };
 		B893F28125B6C96400D055C2 /* BinanceSmartChainIosSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinanceSmartChainIosSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B893F28425B6C96400D055C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B893F28625B6C96400D055C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +68,17 @@
 		B893F2A225B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinanceSmartChainIosSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B893F2A625B6C96500D055C2 /* BinanceSmartChainIosSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinanceSmartChainIosSampleUITests.swift; sourceTree = "<group>"; };
 		B893F2A825B6C96500D055C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ECDFDC25B7BDF500F6B69F /* CreateWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletVC.swift; sourceTree = "<group>"; };
+		B8ECDFE125B7BE0500F6B69F /* CheckBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBalanceVC.swift; sourceTree = "<group>"; };
+		B8ECDFE625B7BE1600F6B69F /* SendBNBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBNBVC.swift; sourceTree = "<group>"; };
+		B8ECDFEB25B7BE2700F6B69F /* ExportPrivateKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportPrivateKeyVC.swift; sourceTree = "<group>"; };
+		B8ECDFF025B7BE3500F6B69F /* ExportKeystoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportKeystoreVC.swift; sourceTree = "<group>"; };
+		B8ECDFF525B7BE4700F6B69F /* CheckBEP20TokenBalanceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBEP20TokenBalanceVC.swift; sourceTree = "<group>"; };
+		B8ECDFFA25B7BE5500F6B69F /* ImportByPrivateKeyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportByPrivateKeyVC.swift; sourceTree = "<group>"; };
+		B8ECDFFF25B7BE6400F6B69F /* SendBEP20TokenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendBEP20TokenVC.swift; sourceTree = "<group>"; };
+		B8ECE00425B7BE7500F6B69F /* ImportByKeystoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportByKeystoreVC.swift; sourceTree = "<group>"; };
+		CEB9EA60872FB99D67414263 /* Pods_BinanceSmartChainIosSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceSmartChainIosSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED560D29DDEDBD66E71A8CBE /* Pods_BinanceSmartChainIosSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BinanceSmartChainIosSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACCF1C67E0DBAF5B3869D43 /* Pods_BinanceSmartChainIosSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DBB54F10C830513BAF1727 /* Pods_BinanceSmartChainIosSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AB64EDF67E8D0722AED55C /* Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19BC9C01BE748817F495EF57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09C3D63D9DE78F0145925C14 /* Pods-BinanceSmartChainIosSample.debug.xcconfig */,
+				67E5F927AAAC82B21315A4D6 /* Pods-BinanceSmartChainIosSample.release.xcconfig */,
+				42F670E9DE35DF5A8CFDFFFC /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.debug.xcconfig */,
+				2E0AD189010E0B5F055A6E5A /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.release.xcconfig */,
+				28085C0563C0153D0ADD39BD /* Pods-BinanceSmartChainIosSampleTests.debug.xcconfig */,
+				014099B2E91AD3E693F916DA /* Pods-BinanceSmartChainIosSampleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6394353ADAD4281C0F407281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED560D29DDEDBD66E71A8CBE /* Pods_BinanceSmartChainIosSample.framework */,
+				1B12147612938B2C9ACB50AB /* Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests.framework */,
+				CEB9EA60872FB99D67414263 /* Pods_BinanceSmartChainIosSampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B893F27825B6C96400D055C2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,8 @@
 				B893F29A25B6C96500D055C2 /* BinanceSmartChainIosSampleTests */,
 				B893F2A525B6C96500D055C2 /* BinanceSmartChainIosSampleUITests */,
 				B893F28225B6C96400D055C2 /* Products */,
+				19BC9C01BE748817F495EF57 /* Pods */,
+				6394353ADAD4281C0F407281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +164,15 @@
 				B893F28D25B6C96500D055C2 /* Assets.xcassets */,
 				B893F28F25B6C96500D055C2 /* LaunchScreen.storyboard */,
 				B893F29225B6C96500D055C2 /* Info.plist */,
+				B8ECDFDC25B7BDF500F6B69F /* CreateWalletVC.swift */,
+				B8ECDFE125B7BE0500F6B69F /* CheckBalanceVC.swift */,
+				B8ECDFE625B7BE1600F6B69F /* SendBNBVC.swift */,
+				B8ECDFEB25B7BE2700F6B69F /* ExportPrivateKeyVC.swift */,
+				B8ECDFF025B7BE3500F6B69F /* ExportKeystoreVC.swift */,
+				B8ECDFF525B7BE4700F6B69F /* CheckBEP20TokenBalanceVC.swift */,
+				B8ECDFFA25B7BE5500F6B69F /* ImportByPrivateKeyVC.swift */,
+				B8ECDFFF25B7BE6400F6B69F /* SendBEP20TokenVC.swift */,
+				B8ECE00425B7BE7500F6B69F /* ImportByKeystoreVC.swift */,
 			);
 			path = BinanceSmartChainIosSample;
 			sourceTree = "<group>";
@@ -135,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B893F2AB25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSample" */;
 			buildPhases = (
+				2306C3DCFE94B2B8A275965A /* [CP] Check Pods Manifest.lock */,
 				B893F27D25B6C96400D055C2 /* Sources */,
 				B893F27E25B6C96400D055C2 /* Frameworks */,
 				B893F27F25B6C96400D055C2 /* Resources */,
+				51DFCCCEFA5ED20F09610540 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B893F2AE25B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleTests" */;
 			buildPhases = (
+				167EB74390A507E9B9B1D3BB /* [CP] Check Pods Manifest.lock */,
 				B893F29325B6C96500D055C2 /* Sources */,
 				B893F29425B6C96500D055C2 /* Frameworks */,
 				B893F29525B6C96500D055C2 /* Resources */,
@@ -170,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B893F2B125B6C96500D055C2 /* Build configuration list for PBXNativeTarget "BinanceSmartChainIosSampleUITests" */;
 			buildPhases = (
+				A7DEC8F9AF7F7CA483D68CEE /* [CP] Check Pods Manifest.lock */,
 				B893F29E25B6C96500D055C2 /* Sources */,
 				B893F29F25B6C96500D055C2 /* Frameworks */,
 				B893F2A025B6C96500D055C2 /* Resources */,
+				3A4A555C249C05F469920F9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +325,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		167EB74390A507E9B9B1D3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinanceSmartChainIosSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2306C3DCFE94B2B8A275965A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinanceSmartChainIosSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4A555C249C05F469920F9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DFCCCEFA5ED20F09610540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample/Pods-BinanceSmartChainIosSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample/Pods-BinanceSmartChainIosSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BinanceSmartChainIosSample/Pods-BinanceSmartChainIosSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7DEC8F9AF7F7CA483D68CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B893F27D25B6C96400D055C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8ECE00525B7BE7500F6B69F /* ImportByKeystoreVC.swift in Sources */,
+				B8ECDFFB25B7BE5500F6B69F /* ImportByPrivateKeyVC.swift in Sources */,
 				B893F28925B6C96400D055C2 /* ViewController.swift in Sources */,
+				B8ECDFDD25B7BDF500F6B69F /* CreateWalletVC.swift in Sources */,
+				B8ECDFF125B7BE3500F6B69F /* ExportKeystoreVC.swift in Sources */,
+				B8ECDFF625B7BE4700F6B69F /* CheckBEP20TokenBalanceVC.swift in Sources */,
+				B8ECE00025B7BE6400F6B69F /* SendBEP20TokenVC.swift in Sources */,
+				B8ECDFE225B7BE0500F6B69F /* CheckBalanceVC.swift in Sources */,
+				B8ECDFEC25B7BE2700F6B69F /* ExportPrivateKeyVC.swift in Sources */,
+				B8ECDFE725B7BE1600F6B69F /* SendBNBVC.swift in Sources */,
 				B893F28525B6C96400D055C2 /* AppDelegate.swift in Sources */,
 				B893F28725B6C96400D055C2 /* SceneDelegate.swift in Sources */,
 			);
@@ -433,6 +617,7 @@
 		};
 		B893F2AC25B6C96500D055C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C3D63D9DE78F0145925C14 /* Pods-BinanceSmartChainIosSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +636,7 @@
 		};
 		B893F2AD25B6C96500D055C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E5F927AAAC82B21315A4D6 /* Pods-BinanceSmartChainIosSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +655,7 @@
 		};
 		B893F2AF25B6C96500D055C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28085C0563C0153D0ADD39BD /* Pods-BinanceSmartChainIosSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +677,7 @@
 		};
 		B893F2B025B6C96500D055C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014099B2E91AD3E693F916DA /* Pods-BinanceSmartChainIosSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +699,7 @@
 		};
 		B893F2B225B6C96500D055C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F670E9DE35DF5A8CFDFFFC /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +719,7 @@
 		};
 		B893F2B325B6C96500D055C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E0AD189010E0B5F055A6E5A /* Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

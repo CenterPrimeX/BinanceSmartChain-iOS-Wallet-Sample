@@ -1,0 +1,6 @@
+framework module Pods_BinanceSmartChainIosSample_BinanceSmartChainIosSampleUITests {
+  umbrella header "Pods-BinanceSmartChainIosSample-BinanceSmartChainIosSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
