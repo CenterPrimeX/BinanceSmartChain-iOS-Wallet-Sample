@@ -47,7 +47,6 @@ class SendBEP20TokenVC: UIViewController {
          * @param tokenAmount - amount of token
          * @param tokenAmount - amount of BNB which user want to send
          * @param receiverWalletAddress - wallet address which is user want to send token
-         * @param Context - activity context
          *
          * @return if sending token completes successfully the function returns transactionHash or returns error name
          */

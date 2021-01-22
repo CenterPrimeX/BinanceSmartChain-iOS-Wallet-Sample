@@ -48,7 +48,6 @@ class SendBNBVC: UIViewController {
          * @param gasLimit - gas limit atleast 21000 or more
          * @param bnbAmount - amount of BNB which user want to send
          * @param receiverWalletAddress - wallet address which is user want to send BNB
-         * @param Context - activity context
          *
          * @return if sending completes successfully the function returns transactionHash or returns error name
          */

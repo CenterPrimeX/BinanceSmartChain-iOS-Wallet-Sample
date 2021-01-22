@@ -46,7 +46,6 @@ class ExportPrivateKeyVC: UIViewController {
          *
          * @param walletAddress
          * @param password - password of provided wallet address
-         * @param Context - activity context
          *
          * @return privateKey
          */

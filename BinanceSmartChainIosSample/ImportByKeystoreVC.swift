@@ -50,7 +50,6 @@ class ImportByKeystoreVC: UIViewController {
         *
         * @param keystore - keystore JSON file
         * @param password - password of provided keystore
-        * @param Context - activity context
         *
         * @return walletAddress
         */
@@ -61,7 +60,8 @@ class ImportByKeystoreVC: UIViewController {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let walletAddress = try binance.importByKeystore(keystore: keyStore, password: password)
+            let walletAddress = try binance.importByKeystore(keystore: keyStore,
+                                                             password: password)
             walletAddressTxtField.text = walletAddress?.walletAddress
             copyBtnoutlet.isHidden = false
         } catch {

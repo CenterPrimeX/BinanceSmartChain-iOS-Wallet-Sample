@@ -45,7 +45,6 @@ class CreateWalletVC: UIViewController {
          * Using this createWallet function user can create a wallet.
          *
          * @param password - must be provided password to wallet address
-         * @param Context - activity context
          *
          * @return walletAddress
          */

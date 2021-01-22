@@ -43,7 +43,6 @@ class ExportKeystoreVC: UIViewController {
          * Using this getKeyStore function user can get keyStore of provided walletAddress.
          *
          * @param WalletAddress - wallet address which user want to get key store
-         * @param Context - activity context
          *
          * @return if the function is completed successfully returns keyStore JSON file or error name
          */

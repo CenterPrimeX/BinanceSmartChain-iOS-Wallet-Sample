@@ -44,7 +44,6 @@ class ImportByPrivateKeyVC: UIViewController {
          * Using this importFromPrivateKey function user can import his wallet from its private key.
          *
          * @param privateKey - private key of wallet address
-         * @param Context - activity context
          *
          * @return walletAddress
          */
