@@ -39,6 +39,15 @@ class ImportByPrivateKeyVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        
+        /**
+         * Using this importFromPrivateKey function user can import his wallet from its private key.
+         *
+         * @param privateKey - private key of wallet address
+         * @param Context - activity context
+         *
+         * @return walletAddress
+         */
         do {
             /**
                 if function successfully completes result can be caught in this block

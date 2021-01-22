@@ -31,22 +31,44 @@ class SendBEP20TokenVC: UIViewController {
     @IBAction func dismissBtnAction(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
-
     @IBAction func sendBtnAction(_ sender: Any) {
-        
         /**
             @param infura - Initialize infura
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this sendBEP20Token function you can send BNB from walletAddress to another walletAddress.
+         *
+         * @param walletAddress - must be provided sender's wallet address
+         * @param password - User must enter password of wallet address
+         * @param gasPrice - gas price: 30000000000
+         * @param gasLimit - gas limit atleast 21000 or more
+         * @param tokenAmount - amount of token
+         * @param tokenAmount - amount of BNB which user want to send
+         * @param receiverWalletAddress - wallet address which is user want to send token
+         * @param Context - activity context
+         *
+         * @return if sending token completes successfully the function returns transactionHash or returns error name
+         */
+        let walletAddress = senderAddressTxtField.text!
+        let password = passwordTxtField.text!
+        let receiverAddress = receiverAddressTxtLabel.text!
+        let tokenAmount = amountTxtField.text!
+        let contractAddress = contractAddressTxtField.text!
+        let gas = BigUInt(gasLimitTxtField.text!)
         do {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let gas = BigUInt(gasLimitTxtField.text!)
             
-            let tx = try binance.sendBEP20Token(walletAddress: senderAddressTxtField.text!, password: passwordTxtField.text!, receiverAddress: receiverAddressTxtLabel.text!, tokenAmount: amountTxtField.text!, tokenContractAddress: contractAddressTxtField.text!, gasPrice: "100", gasLimit: gas!)
+            let tx = try binance.sendBEP20Token(walletAddress: walletAddress,
+                                                password: password,
+                                                receiverAddress: receiverAddress,
+                                                tokenAmount: tokenAmount,
+                                                tokenContractAddress: contractAddress,
+                                                gasPrice: "100",
+                                                gasLimit: gas!)
             txHashTxField.text = tx
         } catch {
             /**
@@ -55,5 +77,4 @@ class SendBEP20TokenVC: UIViewController {
             print(error.localizedDescription)
         }
     }
-    
 }

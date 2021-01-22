@@ -39,12 +39,34 @@ class SendBNBVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this sendBNB function you can send BNB from walletAddress to another walletAddress.
+         *
+         * @param senderWalletAddress - must be provided sender's wallet address
+         * @param password - User must enter password of wallet address
+         * @param gasPrice - gas price: 30000000000
+         * @param gasLimit - gas limit atleast 21000 or more
+         * @param bnbAmount - amount of BNB which user want to send
+         * @param receiverWalletAddress - wallet address which is user want to send BNB
+         * @param Context - activity context
+         *
+         * @return if sending completes successfully the function returns transactionHash or returns error name
+         */
+        let walletAddress = senderWalletAddressTxtField.text!
+        let password = passwordTxtField.text!
+        let receiverAddress = receiverWalletAddressTxtField.text!
+        let bnbAmount = bnbAmountTxtField.text!
+        let gas = BigUInt(gasLimitTxtField.text!)
         do {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let gas = BigUInt(gasLimitTxtField.text!)
-            let tx = try binance.sendBnb(walletAddress: senderWalletAddressTxtField.text!, password: passwordTxtField.text!, receiverAddress: receiverWalletAddressTxtField.text!, etherAmount: bnbAmountTxtField.text!, gasPrice: BigUInt("100"), gasLimit: gas!)
+            let tx = try binance.sendBnb(walletAddress: walletAddress,
+                                         password: password,
+                                         receiverAddress: receiverAddress,
+                                         etherAmount: bnbAmount,
+                                         gasPrice: BigUInt("100"),
+                                         gasLimit: gas!)
             txIdlabel.text = tx
             
         } catch {

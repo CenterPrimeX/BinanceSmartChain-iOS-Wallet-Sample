@@ -39,6 +39,14 @@ class ExportKeystoreVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this getKeyStore function user can get keyStore of provided walletAddress.
+         *
+         * @param WalletAddress - wallet address which user want to get key store
+         * @param Context - activity context
+         *
+         * @return if the function is completed successfully returns keyStore JSON file or error name
+         */
         do {
             /**
                 if function successfully completes result can be caught in this block

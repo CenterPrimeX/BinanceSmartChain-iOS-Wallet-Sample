@@ -37,11 +37,21 @@ class CheckBEP20TokenBalanceVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this getTokenBalance function you can check balance of provided walletAddress with smart contract.
+         *
+         * @param walletAddress - which user want to check it's balance
+         * @param password - password of provided password
+         * @param contractAddress - contract address of token
+         *
+         * @return balance
+         */
         do {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let balance = try binance.getBEP20TokenBalance(tokenContractAddress: contract, walletAddress: walletAddress)
+            let balance = try binance.getBEP20TokenBalance(tokenContractAddress: contract,
+                                                           walletAddress: walletAddress)
             balanceTxtField.text = "Token balance: " + balance!
         } catch {
             /**

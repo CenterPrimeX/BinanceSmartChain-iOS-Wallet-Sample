@@ -26,14 +26,22 @@ class CheckBalanceVC: UIViewController {
     @IBAction func dismissBtnAction(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }
-    
+
     @IBAction func checkBalanceBtnAction(_ sender: Any) {
         
         /**
             @param infura - Initialize infura
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
+        
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this getBnbBalance function you can check balance of provided walletAddress.
+         *
+         * @param walletAddress - which user want to check it's balance
+         *
+         * @return if the function completes successfully returns balance of provided wallet address or returns error name
+         */
         do {
             /**
                 if function successfully completes result can be caught in this block

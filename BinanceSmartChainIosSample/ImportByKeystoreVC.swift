@@ -44,11 +44,24 @@ class ImportByKeystoreVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        
+        /**
+        * Using this importByKeystore function user can import his wallet from keystore.
+        *
+        * @param keystore - keystore JSON file
+        * @param password - password of provided keystore
+        * @param Context - activity context
+        *
+        * @return walletAddress
+        */
+        let keyStore: String = keystoreTxtView.text!
+        let password: String = passwordUiLabel.text!
+        
         do {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let walletAddress = try binance.importByKeystore(keystore: keystoreTxtView.text!, password: passwordUiLabel.text!)
+            let walletAddress = try binance.importByKeystore(keystore: keyStore, password: password)
             walletAddressTxtField.text = walletAddress?.walletAddress
             copyBtnoutlet.isHidden = false
         } catch {

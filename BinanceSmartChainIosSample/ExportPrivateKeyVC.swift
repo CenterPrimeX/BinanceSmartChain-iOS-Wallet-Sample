@@ -41,11 +41,21 @@ class ExportPrivateKeyVC: UIViewController {
          */
         let binance = BnbWalletManager.init(infuraUrl: "https://bsc-dataseed1.binance.org:443")
        // let binance = BnbWalletManager.init(infuraUrl: "https://data-seed-prebsc-1-s1.binance.org:8545") // for test net
+        /**
+         * Using this exportPrivateKey function user can export walletAddresses privateKey.
+         *
+         * @param walletAddress
+         * @param password - password of provided wallet address
+         * @param Context - activity context
+         *
+         * @return privateKey
+         */
         do {
             /**
                 if function successfully completes result can be caught in this block
              */
-            let privateKey = try binance.exportPrivateKey(walletAddress: walletAddressTxtField.text!, password: passwordTxtField.text!)
+            let privateKey = try binance.exportPrivateKey(walletAddress: walletAddressTxtField.text!,
+                                                          password: passwordTxtField.text!)
             privateKeyLbl.text = privateKey.toHexString()
             copyBtnOutlet.isHidden = false
         } catch {
