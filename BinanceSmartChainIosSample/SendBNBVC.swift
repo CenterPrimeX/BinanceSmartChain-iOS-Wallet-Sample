@@ -44,7 +44,7 @@ class SendBNBVC: UIViewController {
          *
          * @param senderWalletAddress - must be provided sender's wallet address
          * @param password - User must enter password of wallet address
-         * @param gasPrice - gas price: 30000000000
+         * @param gasPrice - gas price: 30
          * @param gasLimit - gas limit atleast 21000 or more
          * @param bnbAmount - amount of BNB which user want to send
          * @param receiverWalletAddress - wallet address which is user want to send BNB
