@@ -42,8 +42,8 @@ class SendBEP20TokenVC: UIViewController {
          *
          * @param walletAddress - must be provided sender's wallet address
          * @param password - User must enter password of wallet address
-         * @param gasPrice - gas price: 30000000000
-         * @param gasLimit - gas limit atleast 21000 or more
+         * @param gasPrice - gas price: 30 or more
+         * @param gasLimit - gas limit atleast 60000 or more
          * @param tokenAmount - amount of token
          * @param tokenAmount - amount of BNB which user want to send
          * @param receiverWalletAddress - wallet address which is user want to send token
